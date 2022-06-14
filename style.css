@@ -19,7 +19,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Oswald';
-    border: 1px solid red;
 }
 h1{
     color: blueviolet;
@@ -29,9 +28,24 @@ h2 {
     font-weight: 300;
 }
 .container {
-max-width: 1440px;
+max-width: 900px;
 margin: 0 auto;
 }
+.logo-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+    display: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+.footer {
+    display: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 .nav-list {
     list-style: none;
     display: flex; 
