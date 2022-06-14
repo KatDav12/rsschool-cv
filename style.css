@@ -8,6 +8,9 @@
     src: url(assets/fonts/Oswald-Medium.ttf);
     font-weight: 300;
 }
+* {
+    box-sizing: border-box;
+}
 body {
     min-height: 100vh;
     margin: 0;
@@ -16,6 +19,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Oswald';
+    border: 1px solid red;
 }
 h1{
     color: blueviolet;
